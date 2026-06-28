@@ -7,7 +7,7 @@ Data analytics and visualisation specialist completing a Master of Information S
 
 ## 🛠️ Tools
 **BI & Viz:** Power BI · Tableau · Excel  
-**Data:** SQL (Oracle) · R · Python · data modelling (ERD, normalisation, star/galaxy schema)  
+**Data:** SQL (Oracle) · R · Python · data modelling (ERD, normalisation, star/galaxy schema)
 
 ## 📊 Featured projects
 - **[WeatherWise](https://github.com/jo-bancherdvanich/Weatherwise_Waranyu.B)** — Python weather app with live API data, matplotlib charts, and AI-powered natural-language queries.
@@ -16,4 +16,4 @@ Data analytics and visualisation specialist completing a Master of Information S
 - **Soccer Competition Database** — full Oracle relational database: 18-table normalised schema, ERD, and analytical SQL.
 
 ## 📫 Reach me
-[LinkedIn](ADD_YOUR_LINKEDIN_URL) · jojowaranyu.career@gmail.com
+[LinkedIn](https://www.linkedin.com/in/waranyu-ban) · jojowaranyu.career@gmail.com
