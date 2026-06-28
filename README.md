@@ -6,7 +6,7 @@ Data analytics and visualisation specialist completing a Master of Information S
 🎯 Open to data / business intelligence internships in Western Australia
 
 ## 🛠️ Tools
-**BI & Viz:** Power BI · Tableau · Excel  
+**BI & Viz:** Power BI · Excel  
 **Data:** SQL (Oracle) · R · Python · data modelling (ERD, normalisation, star/galaxy schema)
 
 ## 📊 Featured projects
