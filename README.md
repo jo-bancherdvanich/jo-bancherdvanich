@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi, I'm JO 👋
 
-<!--
-**jo-bancherdvanich/jo-bancherdvanich** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Data analytics and visualisation specialist completing a Master of Information Systems and Technology at Curtin University, with a background in statistics and finance. I build dashboards, data models and forecasts that turn messy data into clear decisions.
 
-Here are some ideas to get you started:
+📍 Perth, WA / Bangkok, TH  
+🎯 Open to data / business intelligence internships in Western Australia
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tools
+**BI & Viz:** Power BI · Tableau · Excel  
+**Data:** SQL (Oracle) · R · Python · data modelling (ERD, normalisation, star/galaxy schema)  
+**Other:** Kotlin
+
+## 📊 Featured projects
+- **[WeatherWise](https://github.com/jo-bancherdvanich/Weatherwise_Waranyu.B)** — Python weather app with live API data, matplotlib charts, and AI-powered natural-language queries.
+- **Renewable Electricity Transition Dashboard** — Power BI dashboard comparing renewable generation across Australia, NZ, Germany and China, with an R forecast to 2035.
+- **FreshMart Sales Performance Dashboard** — sales KPIs and trend analysis.
+- **Soccer Competition Database** — full Oracle relational database: 18-table normalised schema, ERD, and analytical SQL.
+
+## 📫 Reach me
+[LinkedIn](ADD_YOUR_LINKEDIN_URL) · jojowaranyu.career@gmail.com
