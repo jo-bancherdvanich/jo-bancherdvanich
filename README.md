@@ -8,7 +8,6 @@ Data analytics and visualisation specialist completing a Master of Information S
 ## 🛠️ Tools
 **BI & Viz:** Power BI · Tableau · Excel  
 **Data:** SQL (Oracle) · R · Python · data modelling (ERD, normalisation, star/galaxy schema)  
-**Other:** Kotlin
 
 ## 📊 Featured projects
 - **[WeatherWise](https://github.com/jo-bancherdvanich/Weatherwise_Waranyu.B)** — Python weather app with live API data, matplotlib charts, and AI-powered natural-language queries.
