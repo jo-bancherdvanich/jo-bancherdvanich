@@ -14,13 +14,6 @@ Data analytics and visualisation specialist completing a Master of Information S
 
 ---
 
-## ▶️ Try one in your browser
-
-**[WeatherWise — live weather advisor](https://jo-bancherdvanich.github.io/waranyu-CV/weatherwise.html#try-it)** · no install, no sign-up, no API key.
-Search any city and it returns a live 5-day forecast, charts, and a plain-English answer to questions like *"will it rain tomorrow?"* — the Python project's logic, running in the browser.
-
----
-
 ## 📊 Featured Projects
 
 - **[FreshMart Data Warehouse & Dashboard](https://github.com/jo-bancherdvanich/freshmart-data-warehouse)** — end-to-end BI: a Kimball star schema, Power Query ETL, and an executive sales dashboard with DAX time intelligence.
