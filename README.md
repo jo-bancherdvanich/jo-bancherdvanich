@@ -1,73 +1,137 @@
-# Hi, I'm JO 👋
+<h1 align="center">Hi, I'm JO 👋</h1>
 
-I'm a data analyst working in BI and visualisation, completing a Master of Information
-Systems and Technology at Curtin University with a background in statistics and finance.
-I build dashboards, data models, and forecasts that turn messy data into clear decisions.
+<p align="center">
+  Data analyst working in BI and visualisation.<br/>
+  Master of Information Systems and Technology at Curtin University, with a background in statistics and finance.<br/>
+  I build dashboards, data models, and forecasts that turn messy data into decisions people can defend.
+</p>
 
-### 🌐 [waranyu-cv.vercel.app](https://waranyu-cv.vercel.app)
+<p align="center">
+  <img src="https://img.shields.io/badge/Perth,_WA-Australia-0b7fa6?style=flat-square" alt="Perth, WA"/>
+  <img src="https://img.shields.io/badge/Graduating-July_2027-5ecbf5?style=flat-square" alt="Graduating July 2027"/>
+  <img src="https://img.shields.io/badge/Open_to-Data_%2F_BI_internships-7ee0c1?style=flat-square" alt="Open to internships"/>
+</p>
 
-Every project below has a full case study there, with live charts and queries you can run
-in the browser, not just screenshots.
+<br/>
 
-📍 Perth, WA / Bangkok, TH
-🎓 Graduating July 2027
-🎯 Open to data / business intelligence internships in Western Australia
+<p align="center">
+  <a href="https://waranyu-cv.vercel.app">
+    <img src="images/site-preview.png" width="900" alt="Screenshot of waranyu-cv.vercel.app, a dark portfolio site headlined 'Turning data into decisions that move the business' with a renewable electricity forecast chart"/>
+  </a>
+</p>
+
+<h3 align="center"><a href="https://waranyu-cv.vercel.app">waranyu-cv.vercel.app</a></h3>
+
+<p align="center">
+  My portfolio. Every project below has a full case study there,<br/>
+  with live charts and SQL queries you can run in the browser, not just screenshots.
+</p>
 
 ---
 
 ## 🛠️ Tools
 
-**BI & viz:** Power BI · DAX · Power Query · Excel
-**Data:** SQL (Oracle) · Python · R
+<p>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/DAX-004578?style=for-the-badge" alt="DAX"/>
+  <img src="https://img.shields.io/badge/Power_Query-217346?style=for-the-badge" alt="Power Query"/>
+  <img src="https://img.shields.io/badge/Oracle_SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle SQL"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R"/>
+  <img src="https://img.shields.io/badge/Excel-1D6F42?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel"/>
+</p>
+
 **Modelling:** ERD · normalisation · star and galaxy schema · time-series forecasting
 
 ---
 
 ## 📊 Featured projects
 
-### ⚡ Australia's renewable electricity transition
-`Power BI` `DAX` `R` `Time-series forecasting`
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Traced Australia's renewable share from **9% in 2005 to 35% in 2024**, with solar alone
-growing from 0.1 to 48.6 TWh. An R linear regression forecasts **44.6% by 2035**
-(R² ≈ 0.85, p < 0.001), well short of the 82%-by-2030 target. Benchmarked against
-Germany (54.5%) and New Zealand (85.5%) to put the gap in context.
+<a href="https://waranyu-cv.vercel.app/renewable.html">
+  <img src="images/renewable-dashboard.png" alt="Power BI dashboard tracking Australia's renewable electricity share from 2005 to 2035"/>
+</a>
 
-▸ [Case study](https://waranyu-cv.vercel.app/renewable.html) · [Repository](https://github.com/jo-bancherdvanich/renewable-electricity-dashboard)
+<h3>⚡ Australia's renewable transition</h3>
 
-### 🛒 FreshMart data warehouse and sales dashboard
-`Power BI` `Power Query` `DAX` `Dimensional modelling`
+<p>Traced Australia's renewable share from <b>9% in 2005 to 35% in 2024</b>, with solar alone growing from 0.1 to 48.6 TWh. An R linear regression forecasts <b>44.6% by 2035</b> (R² ≈ 0.85, p &lt; 0.001), well short of the 82%-by-2030 target. Benchmarked against Germany (54.5%) and New Zealand (85.5%).</p>
 
-Modelled **17,697 transactions** across 60 products, 12 stores, and 21 promotions into a
-Kimball star schema. Audited five source tables in Power Query: removed duplicate
-customers, collapsed 13 inconsistent category labels down to 6, and remapped 93 rows
-carrying an unmatched customer ID. Delivered an executive view of revenue, gross margin,
-and year-on-year performance by region, category, and day-of-week demand.
+<p><code>Power BI</code> <code>DAX</code> <code>R</code> <code>Forecasting</code></p>
 
-▸ [Case study](https://waranyu-cv.vercel.app/freshmart.html) · [Repository](https://github.com/jo-bancherdvanich/freshmart-data-warehouse)
+<p>
+  <a href="https://waranyu-cv.vercel.app/renewable.html"><b>Case study →</b></a> ·
+  <a href="https://github.com/jo-bancherdvanich/renewable-electricity-dashboard">Repository</a>
+</p>
 
-### ⚽ Football club database
-`Oracle SQL` `ERD` `Normalisation`
+</td>
+<td width="50%" valign="top">
 
-Designed a **16-table normalised schema** from 18 documented business rules, drew the ERD,
-then built and tested the Oracle tables for relational integrity. Wrote 7 analytical
-queries answering real questions: season ladder, top scorers, goals per ground, MVP
-rankings, and away form, using joins, aggregation, subqueries, `HAVING`, and `LEFT JOIN`.
+<a href="https://waranyu-cv.vercel.app/freshmart.html">
+  <img src="images/freshmart-dashboard.png" alt="Power BI executive sales dashboard for the FreshMart retail data warehouse"/>
+</a>
 
-▸ [Case study](https://waranyu-cv.vercel.app/football-database.html) · [Repository](https://github.com/jo-bancherdvanich/soccer-competition-database)
+<h3>🛒 FreshMart data warehouse</h3>
 
-### 🌦️ WeatherWise
-`Python` `Matplotlib` `ipywidgets` `REST API`
+<p>Modelled <b>17,697 transactions</b> across 60 products, 12 stores, and 21 promotions into a Kimball star schema. Audited five source tables in Power Query: removed duplicate customers, collapsed 13 inconsistent category labels to 6, and remapped 93 rows with an unmatched customer ID. Delivered revenue, gross margin, and year-on-year views.</p>
 
-An interactive weather advisor built in a Jupyter notebook. Pulls live conditions and
-5-day forecasts from the OpenWeatherMap API, charts temperature and rainfall with
-Matplotlib and ipywidgets controls, parses plain-language questions, and caches responses
-to avoid repeat API calls.
+<p><code>Power BI</code> <code>Power Query</code> <code>DAX</code> <code>Star schema</code></p>
 
-▸ [Case study](https://waranyu-cv.vercel.app/weatherwise.html) · [Repository](https://github.com/jo-bancherdvanich/Weatherwise_Waranyu.B)
+<p>
+  <a href="https://waranyu-cv.vercel.app/freshmart.html"><b>Case study →</b></a> ·
+  <a href="https://github.com/jo-bancherdvanich/freshmart-data-warehouse">Repository</a>
+</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://waranyu-cv.vercel.app/football-database.html">
+  <img src="images/football-erd.png" alt="Entity-relationship diagram for a 16-table Oracle football competition database"/>
+</a>
+
+<h3>⚽ Football club database</h3>
+
+<p>Designed a <b>16-table normalised schema</b> from 18 documented business rules, drew the ERD, then built and tested the Oracle tables for relational integrity. Wrote 7 analytical queries answering real questions: season ladder, top scorers, goals per ground, MVP rankings, and away form.</p>
+
+<p><code>Oracle SQL</code> <code>ERD</code> <code>Normalisation</code></p>
+
+<p>
+  <a href="https://waranyu-cv.vercel.app/football-database.html"><b>Case study →</b></a> ·
+  <a href="https://github.com/jo-bancherdvanich/soccer-competition-database">Repository</a>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://waranyu-cv.vercel.app/weatherwise.html">
+  <img src="images/weatherwise-demo.png" alt="WeatherWise notebook app showing a temperature forecast chart"/>
+</a>
+
+<h3>🌦️ WeatherWise</h3>
+
+<p>An interactive weather advisor built in a Jupyter notebook. Pulls live conditions and 5-day forecasts from the OpenWeatherMap API, charts temperature and rainfall with Matplotlib and ipywidgets controls, parses plain-language questions, and caches responses to avoid repeat API calls.</p>
+
+<p><code>Python</code> <code>Matplotlib</code> <code>ipywidgets</code> <code>REST API</code></p>
+
+<p>
+  <a href="https://waranyu-cv.vercel.app/weatherwise.html"><b>Case study →</b></a> ·
+  <a href="https://github.com/jo-bancherdvanich/Weatherwise_Waranyu.B">Repository</a>
+</p>
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 📫 Reach me
 
-[LinkedIn](https://www.linkedin.com/in/waranyu-ban) · jojowaranyu.career@gmail.com · [Portfolio](https://waranyu-cv.vercel.app)
+<p>
+  <a href="https://waranyu-cv.vercel.app"><img src="https://img.shields.io/badge/Portfolio-waranyu--cv.vercel.app-0b7fa6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/waranyu-ban"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:jojowaranyu.career@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
