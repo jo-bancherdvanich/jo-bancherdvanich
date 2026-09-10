@@ -52,7 +52,7 @@
 <td width="50%" valign="top">
 
 <a href="https://waranyu-cv.vercel.app/renewable.html">
-  <img src="images/renewable-dashboard.png" alt="Power BI dashboard tracking Australia's renewable electricity share from 2005 to 2035"/>
+  <img src="images/card-renewable.png" alt="Power BI dashboard tracking Australia's renewable electricity share from 2005 to 2035"/>
 </a>
 
 <h3>⚡ Australia's renewable transition</h3>
@@ -70,7 +70,7 @@
 <td width="50%" valign="top">
 
 <a href="https://waranyu-cv.vercel.app/freshmart.html">
-  <img src="images/freshmart-dashboard.png" alt="Power BI executive sales dashboard for the FreshMart retail data warehouse"/>
+  <img src="images/card-freshmart.png" alt="Power BI executive sales dashboard for the FreshMart retail data warehouse"/>
 </a>
 
 <h3>🛒 FreshMart data warehouse</h3>
@@ -90,7 +90,7 @@
 <td width="50%" valign="top">
 
 <a href="https://waranyu-cv.vercel.app/football-database.html">
-  <img src="images/football-erd.png" alt="Entity-relationship diagram for a 16-table Oracle football competition database"/>
+  <img src="images/card-football.png" alt="Entity-relationship diagram for a 16-table Oracle football competition database"/>
 </a>
 
 <h3>⚽ Football club database</h3>
@@ -108,7 +108,7 @@
 <td width="50%" valign="top">
 
 <a href="https://waranyu-cv.vercel.app/weatherwise.html">
-  <img src="images/weatherwise-demo.png" alt="WeatherWise notebook app showing a temperature forecast chart"/>
+  <img src="images/card-weatherwise.png" alt="WeatherWise notebook app showing a temperature forecast chart"/>
 </a>
 
 <h3>🌦️ WeatherWise</h3>
