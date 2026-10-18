@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://waranyu-cv.vercel.app">
-    <img src="images/site-preview.png" width="900" alt="Screenshot of waranyu-cv.vercel.app, a dark portfolio site headlined 'Turning data into decisions that move the business' with a renewable electricity forecast chart"/>
+    <img src="images/site-preview.png" width="900" alt="Screenshot of waranyu-cv.vercel.app, a portfolio site headed with the name Waranyu Bancherdvanich, six projects, and graduation in July 2027"/>
   </a>
 </p>
 
@@ -24,7 +24,7 @@
 
 <p align="center">
   My portfolio. Every project below has a full case study there,<br/>
-  with live charts and SQL queries you can run in the browser, not just screenshots.
+  with live dashboards and SQL queries you can run in the browser, not just screenshots.
 </p>
 
 ---
@@ -41,7 +41,7 @@
   <img src="https://img.shields.io/badge/Excel-1D6F42?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel"/>
 </p>
 
-**Modelling:** ERD · normalisation · star and galaxy schema · time-series forecasting
+**Modelling:** ERD · normalisation · star and galaxy schema · time-series forecasting · model evaluation
 
 ---
 
@@ -57,7 +57,7 @@
 
 <h3>⚡ Australia's renewable transition</h3>
 
-<p>Traced Australia's renewable share from <b>9% in 2005 to 35% in 2024</b>, with solar alone growing from 0.1 to 48.6 TWh. An R linear regression forecasts <b>44.6% by 2035</b> (R² ≈ 0.85, p &lt; 0.001), well short of the 82%-by-2030 target. Benchmarked against Germany (54.5%) and New Zealand (85.5%).</p>
+<p>Traced Australia's renewable share from <b>9% in 2005 to 35% in 2024</b>. An R linear regression (R² ≈ 0.85, p &lt; 0.001) forecasts only <b>37.8% by 2030</b> against the 82% target. The share stalled during the Renewable Energy Target review, then grew about 2.5 points a year after the 2015 reset, nearly 5× its 2005 to 2015 pace.</p>
 
 <p><code>Power BI</code> <code>DAX</code> <code>R</code> <code>Forecasting</code></p>
 
@@ -69,13 +69,33 @@
 </td>
 <td width="50%" valign="top">
 
+<a href="https://waranyu-cv.vercel.app/locollm.html">
+  <img src="images/card-locollm.png" alt="Results chart showing one-principle accuracy rising from 2% for the base model to 81% after the fifth training run"/>
+</a>
+
+<h3>🤖 LocoLLM privacy-law adapter</h3>
+
+<p>Client capstone for LocoLabo at Curtin. Trained a small AI model that runs on an ordinary laptop into an Australian privacy-law specialist, and proved it on a <b>sealed 170-question benchmark</b>. Training the MLP layers lifted one-principle accuracy from <b>2% to 81%</b>. My role: Quality and Documentation Manager.</p>
+
+<p><code>Python</code> <code>LoRA fine-tuning</code> <code>Benchmark design</code></p>
+
+<p>
+  <a href="https://waranyu-cv.vercel.app/locollm.html"><b>Case study →</b></a> ·
+  <a href="https://github.com/michael-borck/loco-llm">LocoLLM on GitHub</a>
+</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 <a href="https://waranyu-cv.vercel.app/freshmart.html">
   <img src="images/card-freshmart.png" alt="Power BI executive sales dashboard for the FreshMart retail data warehouse"/>
 </a>
 
 <h3>🛒 FreshMart data warehouse</h3>
 
-<p>Modelled <b>17,697 transactions</b> across 60 products, 12 stores, and 21 promotions into a Kimball star schema. Audited five source tables in Power Query: removed duplicate customers, collapsed 13 inconsistent category labels to 6, and remapped 93 rows with an unmatched customer ID. Delivered revenue, gross margin, and year-on-year views.</p>
+<p>Modelled <b>17,697 transaction lines</b> from 5,000 transactions across 60 products, 12 stores and 21 promotions into a Kimball star schema. Audited five source tables in Power Query first: removed 15 duplicate customers, collapsed 13 category spellings to 6, rebuilt dates written three ways, and remapped 93 rows with an unmatched customer ID. Found that Meat drives <b>40.6% of revenue</b>.</p>
 
 <p><code>Power BI</code> <code>Power Query</code> <code>DAX</code> <code>Star schema</code></p>
 
@@ -85,8 +105,6 @@
 </p>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://waranyu-cv.vercel.app/football-database.html">
@@ -95,7 +113,7 @@
 
 <h3>⚽ Football club database</h3>
 
-<p>Designed a <b>16-table normalised schema</b> from 18 documented business rules, drew the ERD, then built and tested the Oracle tables for relational integrity. Wrote 7 analytical queries answering real questions: season ladder, top scorers, goals per ground, MVP rankings, and away form.</p>
+<p>Turned <b>18 business rules</b> into an ERD and a normalised <b>16-table Oracle schema</b>, with a data dictionary and sample data checked in Excel before loading. Wrote <b>9 analytical queries</b>: season ladder, top scorers, goals per ground and best on ground. Three-person group project.</p>
 
 <p><code>Oracle SQL</code> <code>ERD</code> <code>Normalisation</code></p>
 
@@ -105,6 +123,8 @@
 </p>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://waranyu-cv.vercel.app/weatherwise.html">
@@ -113,13 +133,30 @@
 
 <h3>🌦️ WeatherWise</h3>
 
-<p>An interactive weather advisor built in a Jupyter notebook. Pulls live conditions and 5-day forecasts from the OpenWeatherMap API, charts temperature and rainfall with Matplotlib and ipywidgets controls, parses plain-language questions, and caches responses to avoid repeat API calls.</p>
+<p>An interactive weather advisor built in a Jupyter notebook. One cached call to the OpenWeatherMap API returns a 5-day forecast in 3-hour blocks, charted with Matplotlib and ipywidgets controls. It answers plain-language questions, and I fixed a bug where "tomorrow" was reading today's readings.</p>
 
 <p><code>Python</code> <code>Matplotlib</code> <code>ipywidgets</code> <code>REST API</code></p>
 
 <p>
   <a href="https://waranyu-cv.vercel.app/weatherwise.html"><b>Case study →</b></a> ·
   <a href="https://github.com/jo-bancherdvanich/Weatherwise_Waranyu.B">Repository</a>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://waranyu-cv.vercel.app/infrastructure.html">
+  <img src="images/card-infrastructure.png" alt="Network diagram linking a Perth head office to five remote WA training centres"/>
+</a>
+
+<h3>🛰️ IT infrastructure plan</h3>
+
+<p>Pair project: connecting a Perth head office to five remote WA training centres. Compared <b>5 WAN options</b> and chose Starlink over Sky Muster on latency, about <b>29.8 ms against 664.9 ms</b>, so VoIP calls work. Designed solar, UPS and satellite-phone backup for outages, and drew the network diagram in Visio.</p>
+
+<p><code>Network design</code> <code>Visio</code> <code>Excel</code></p>
+
+<p>
+  <a href="https://waranyu-cv.vercel.app/infrastructure.html"><b>Case study →</b></a>
 </p>
 
 </td>
@@ -135,3 +172,5 @@
   <a href="https://www.linkedin.com/in/waranyu-ban"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:jojowaranyu.career@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
+
+---
