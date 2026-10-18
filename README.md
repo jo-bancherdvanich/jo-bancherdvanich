@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://waranyu-cv.vercel.app">
-    <img src="images/site-preview.png" width="900" alt="Screenshot of waranyu-cv.vercel.app, a portfolio site headed with the name Waranyu Bancherdvanich, six projects, and graduation in July 2027"/>
+    <img src="images/site-preview-2026-10.png" width="900" alt="Screenshot of waranyu-cv.vercel.app, a portfolio site headed with the name Waranyu Bancherdvanich, six projects, and graduation in July 2027"/>
   </a>
 </p>
 
