@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://waranyu-cv.vercel.app">
-    <img src="images/site-preview-2026-10.png" width="900" alt="Screenshot of waranyu-cv.vercel.app, a portfolio site headed with the name Waranyu Bancherdvanich, six projects, and graduation in July 2027"/>
+    <img src="images/site-preview-2026-10-27.png" width="900" alt="Screenshot of waranyu-cv.vercel.app: the name Waranyu Bancherdvanich, a short introduction, and a grid of six project thumbnails"/>
   </a>
 </p>
 
@@ -162,6 +162,17 @@
 </td>
 </tr>
 </table>
+
+---
+
+## 💼 Experience
+
+**Student Consultant (Finance Lead), Curtin Consulting Group** · Jul 2026 to Oct 2026<br/>
+Client: Hockey WA. Finance Lead in a 9-person team. I also built a 3D model of the venue in Blender, showing all 18 camera positions across 4 outdoor pitches and 2 indoor courts.
+<a href="https://waranyu-cv.vercel.app/streaming-concept.html">Watch the venue model →</a>
+
+**Supervisor, Six Senses Gourmet** · Leederville, WA · Nov 2023 to present<br/>
+Promoted twice in 12 months from Waiter and Bartender. Supervise around 5 staff per shift.
 
 ---
 
